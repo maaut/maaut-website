@@ -1,15 +1,14 @@
 import {
   faGithub,
   faInstagram,
-  faLinkedin,
   faLinkedinIn,
   faTwitch,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
-import { faCoffee } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
 import profilePic from "../public/maaut.jpg";
+import Head from "next/head";
 
 export default function Home() {
   return (
